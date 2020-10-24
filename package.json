@@ -1,7 +1,12 @@
 {
   "name": "quark",
-  "version": "1.0.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Quark lang website written in JS with Nuxt.js and Tailwind.",
+  "main": "index.js",
+  "repository": "https://github.com/quark-lang/website.git",
+  "author": "thomasvergne <thomas@quark-lang.dev>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
