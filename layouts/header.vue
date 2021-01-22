@@ -12,7 +12,8 @@
           <img src="~/assets/logo_dark.png" class="object-cover w-5 mr-2" />
           Download
         </button>
-        <button class="bg-gray-100 py-3 px-8 text-gray-600 font-bold rounded-md w-36">
+        <button class="bg-gray-100 py-3 px-8 text-gray-700 font-bold rounded-md flex flex-row items-center w-40 justify-center">
+          <img src="~/assets/github.png" class="object-cover w-5 mr-2" />
           Github
         </button>
       </div>
