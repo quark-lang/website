@@ -8,7 +8,8 @@
         Quark is an Lisp programming language which can be either interpreted or compiled. It's dynamically and strongly typed and written in Typescript and Quark itself. Compiler output low-level C code.
       </p>
       <div class="container flex flex-row space-x-4">
-        <button class="bg-indigo-500 hover:bg-indigo-600 transition-colors duration-300 py-3 px-8 text-white font-bold rounded-md w-36">
+        <button class="bg-indigo-500 hover:bg-indigo-600 transition-colors duration-300 py-3 px-8 text-white font-bold rounded-md flex flex-row items-center">
+          <img src="~/assets/logo_dark.png" class="object-cover w-5 mr-2" />
           Download
         </button>
         <button class="bg-gray-100 py-3 px-8 text-gray-600 font-bold rounded-md w-36">
