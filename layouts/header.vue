@@ -1,28 +1,31 @@
 <template>
-  <header class="bg-white py-8">
-    <div class="container px-12">
-      <h1 class="font-extrabold text-5xl text-gray-700">
-        Quark
+  <header class="bg-gray-50 flex flex-col py-8 px-8">
+    <div class="container flex flex-col">
+      <h1 class="text-6xl font-extrabold text-gray-800">
+        Quark language
       </h1>
-      <p class="text-gray-600 text-opacity-75 mt-2">
-        Quark is an interpreted <b>Lisp programming language</b> written in Typescript which is focused on <b>productivity</b>, <b>speed</b> and <b>usability</b>.
+      <p class="my-8 text-gray-500 text-lg">
+        Quark is an Lisp programming language which can be either interpreted or compiled. It's dynamically and strongly typed and written in Typescript and Quark itself. Compiler output low-level C code.
       </p>
-    </div>
-    <code class="m-4 whitespace-pre-line">
-      <pre class="bg-gray-800 py-10 mx-12 leading-7 text-gray-100 text-opacity-75 rounded-2xl shadow-lg">
-        (let username "Thomas")
-        (let welcome (fn (username) {
-          (print "Hello" (+ username "!"))
-        }))
-        (welcome username)</pre>
-    </code>
-    <div class="flex flex-row px-12 space-x-2">
-      <button class="bg-purple-600 text-opacity-90 text-white font-semibold py-2 px-6 rounded-md">
-        Download
-      </button>
-      <button class="bg-transparent border-purple-600 border text-purple-700 py-2 px-9 rounded-md">
-        GitHub
-      </button>
+      <div class="container flex flex-row space-x-4">
+        <button class="bg-indigo-500 hover:bg-indigo-600 transition-colors duration-300 py-3 px-8 text-white font-bold rounded-md w-36">
+          Download
+        </button>
+        <button class="bg-gray-100 py-3 px-8 text-gray-600 font-bold rounded-md w-36">
+          Github
+        </button>
+      </div>
+      <div class="container flex flex-col mt-16 mb-8">
+        <code class="bg-gray-800 p-8 rounded-xl text-white">
+          <pre>
+  (let welcome (fn (username) {
+    (print "Hello" (+ username "!"))
+  }))
+
+  (let name "Thomas")
+  (welcome name)</pre>
+        </code>
+      </div>
     </div>
   </header>
 </template>
